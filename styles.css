@@ -78,7 +78,8 @@ img.a:hover {
 
 li {
 	display: inline;
-	float: left;
+	float: center;
+	text-align: center; 
 	margin: 0px; 
 	font-size: 15pt; 
 }
@@ -94,9 +95,6 @@ padding: 10 em;
 overflow: hidden;
 }
 
-li{
-	float: center;
-}
 
 li a{
 	display: block;
