@@ -73,37 +73,33 @@ img.a:hover {
 	filter: grayscale(0);
 }
 
-
-
-
-li {
-	display: inline;
-	float: center;
-	text-align: center; 
-	margin: 0px; 
-	font-size: 15pt; 
-}
-a {
-	display: block;
-	padding: 0px;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+width: 100%;
+display: table;
+text-align: center;
+  
 }
 
-ul{
-list-style-type: none;
-margin: 0;
-padding: 10 em;
-overflow: hidden;
+ul li {
+  	display: inline-block; 
+	float: none; 
+}
+
+li a {
+  display: inline-block;
+  color: purple;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+	
+}
+
+li a:hover {
+  background-color: #111;
 }
 
 
-li a{
-	display: block;
-	color: blue;
-	text-align: left;
-	padding: 10px;
-	text-decoration: none;
-}
-
-li a:hover{
-	color: green;
-}
