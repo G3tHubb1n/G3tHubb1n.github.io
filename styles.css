@@ -21,6 +21,12 @@ body {
 	text-align: center;
 	
 	}
+.contentHeader {
+	width: 75%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10em; 
+}
 
 h1 {
 	color: purple;
