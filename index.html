@@ -9,7 +9,6 @@
 #titleContainer {
 width: 100%; 
   position: relative;
-  background: #F5F5F5;
 	padding: 0px; 
 }
 #moveName {
@@ -17,7 +16,6 @@ width: 100%;
   margin: 0px; 
 	padding: 0px; 
   position: absolute; left: 0px; 
-  background-color: #F5F5F5;
   -webkit-transition: width 5s;
   transition: width 5s; 
 	text-align: center;
@@ -171,7 +169,7 @@ function myMove() {
   var pos = 0; 
   var id = setInterval(frame, 2);
   function frame() {
-    if (pos == 100) {
+    if (pos == 80) {
       
       clearInterval(id);
     } else {
