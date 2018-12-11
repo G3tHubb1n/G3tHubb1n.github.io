@@ -60,9 +60,9 @@ width: 30%;
 height: auto; 
 transition: transform .2s; 
 border: 1px solid white; 
--webkit-filter: grayscale(100%;);
+-webkit-filter: grayscale(100%;); /** turns images gray **/
 filter: grayscale(100%);
--webkit-transition: .3s ease-in-out;
+-webkit-transition: .3s ease-in-out; 
 transition: .3s ease-in-out; 
 
 }
@@ -71,12 +71,12 @@ transition: .3s ease-in-out;
 img.a:hover {
 	-ms-transform: scale(3);
 	-webkit-transform: scale(3);
-	-webkit-filter: grayscale(0);
+	-webkit-filter: grayscale(0); /** adds image color **/
 	filter: grayscale(0);
 }
 
 ul {
-  list-style-type: none;
+  list-style-type: none;	/* menu */
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -101,7 +101,7 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
+  color: green;
 }
 
 
