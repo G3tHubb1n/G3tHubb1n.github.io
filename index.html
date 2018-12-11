@@ -167,6 +167,26 @@ are to find inspiration through others and share my songs."</em></p>
 
 <br>
 
+<script>
+function myMove() {
+  var elem = document.getElementById("moveName");   
+  var pos = 0; 
+  var id = setInterval(frame, 2);
+  function frame() {
+    if (pos == 100) {
+      
+      clearInterval(id);
+    } else {
+      pos++; 
+      elem.style.top = pos + 'px'; 
+      elem.style.left = 0;
+
+    }
+  }
+}
+
+
+</script>
 
 </body>
 </html>
